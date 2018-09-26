@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <link rel="stylesheet" href="estil.css">
+ <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+ <div id="video-container">
+ <video id="video" preload="auto" width="100%" height="auto" >
+ <source src="video.mp4" type="video/mp4" />
+ <p>Seu navegador não suporta vídeos em HMTL5 :(</p>
+ </video>
+ <div id="controls" class="controls">
+ <button id="play" type="button"><i class="fa fa-play"
+aria-hidden="true"></i></button>
+ <button id="stop" type="button"><i class="fa fa-stop"
+aria-hidden="true"></i></button>
+ <div class="progress">
+ <progress id="progress" value="0" min="0">
+ <span id="progress-bar"></span>
+ </progress>
+ </div>
+ <button id="volplus" type="button"><i class="fa fa-volume-up"
+aria-hidden="true"></i></button>
+ <button id="volminus" type="button"><i class="fa fa-volume-down"
+aria-hidden="true"></i></button>
+ <button id="fullscreen" type="button"><i class="fa fa-arrows-alt"
+aria-hidden="true"></i></button>
+ </div>
+ </div>
+ </body>
+</html>
